@@ -297,7 +297,11 @@ export default function FullWidthTabs() {
           <TabPanel value={value} index={0} dir={theme.direction}>
             <div className="container mx-auto flex justify-center items-center overflow-hidden">
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 2xl:grid-cols-3 gap-5">
-                {displayedProjects.map((project, index) => (
+
+
+{/* connect our database, certificate and prohect link then again connect it */}
+
+                {/* {displayedProjects.map((project, index) => (
                   <div
                     key={project.id || index}
                     data-aos={index % 3 === 0 ? "fade-up-right" : index % 3 === 1 ? "fade-up" : "fade-up-left"}
@@ -311,7 +315,7 @@ export default function FullWidthTabs() {
                       id={project.id}
                     />
                   </div>
-                ))}
+                ))} */}
               </div>
             </div>
             {projects.length > initialItems && (
@@ -327,7 +331,9 @@ export default function FullWidthTabs() {
           <TabPanel value={value} index={1} dir={theme.direction}>
             <div className="container mx-auto flex justify-center items-center overflow-hidden">
               <div className="grid grid-cols-1 md:grid-cols-3 md:gap-5 gap-4">
-                {displayedCertificates.map((certificate, index) => (
+{/* connect our database, certificate and prohect link then again connect it */}
+
+                {/* {displayedCertificates.map((certificate, index) => (
                   <div
                     key={index}
                     data-aos={index % 3 === 0 ? "fade-up-right" : index % 3 === 1 ? "fade-up" : "fade-up-left"}
@@ -335,7 +341,7 @@ export default function FullWidthTabs() {
                   >
                     <Certificate ImgSertif={certificate.Img} />
                   </div>
-                ))}
+                ))} */}
               </div>
             </div>
             {certificates.length > initialItems && (

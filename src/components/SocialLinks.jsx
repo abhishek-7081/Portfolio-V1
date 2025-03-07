@@ -13,7 +13,7 @@ const socialLinks = [
     displayName: "Let's Connect",
     subText: "on LinkedIn",
     icon: Linkedin,
-    url: "www.linkedin.com/in/abhishek-tripathi-84b998316",
+    url: "https://www.linkedin.com/in/abhishek-tripathi-84b998316/",
     color: "#0A66C2",
     gradient: "from-[#0A66C2] to-[#0077B5]",
     isPrimary: true
